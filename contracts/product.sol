@@ -16,7 +16,6 @@ contract product {
     mapping(uint256 => productItem) public productItems;
 
     function addProduct(
-        //bytes32 _manufactuerID,
         bytes32 _productName,
         bytes32 _productSN,
         bytes32 _productBrand,
